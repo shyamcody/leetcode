@@ -1,4 +1,5 @@
 --sql function code
+--https://leetcode.com/problems/nth-highest-salary/?envType=problem-list-v2&envId=m8baczxh
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   DECLARE offset_val INT;
